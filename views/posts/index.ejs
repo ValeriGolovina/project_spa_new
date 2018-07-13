@@ -1,0 +1,15 @@
+<% layout('main_layout') %>
+<div class="container">
+    <div class="" id="">
+    <% for(var i = 0; i < posts.length; i++) { %>
+      <article class="" style="margin:20px">
+        <a href="/posts/information/<%= posts[i]._id %>"><img src="<%= posts[i].path %>"/ style="width:200px"></a>
+        <p><%= posts[i].description %></p>
+        <p>
+            Submitted by: <%= posts[i].user %>
+            <a class="button deleteButton" href="/posts/delete/<%= posts[i]._id %>">Delete</a>
+        </p>
+      </article>
+      <% } %>
+    </div>
+</div>

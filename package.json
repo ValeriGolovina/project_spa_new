@@ -1,0 +1,27 @@
+{
+  "name": "project_spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "project_spa"
+  },
+  "keywords": [
+    "project_spa"
+  ],
+  "author": "\u0016ValeriGolovina",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "ejs-mate": "^2.3.0",
+    "express": "^4.16.3",
+    "express-fileupload": "^0.4.0",
+    "mongoose": "^5.2.3",
+    "morgan": "^1.9.0"
+  }
+}

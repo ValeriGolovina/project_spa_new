@@ -1,0 +1,14 @@
+<% layout('main_layout') %>
+
+<div class="container">
+    <article class="single-img">
+        <img src="<%= post.path %>" style="width:300px;"/>
+        <div class="desc-block">
+            <p><%= post.description %></p>
+        </div>
+        <div class="buttons-group">
+            <a class="button" href="/posts/save-post/<%= post._id %>">Save</a>
+            <a class="button" href="/posts/edit/<%= post._id %>">Edit</a>
+        </div>
+    </article>
+</div>

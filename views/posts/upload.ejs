@@ -1,0 +1,18 @@
+<% layout('main_layout') %>
+
+
+<div class="container">
+   <h1>Upload new photo</h1>
+   <form action="/posts/upload" role="form" method="post" enctype="multipart/form-data">
+       <label for="sampleFile">Path </label>
+       <input type="file" name="sampleFile" required> 
+       
+       <label for="description">Description</label>
+       <input type="text" name="description" class="input_value">
+        
+       <label for="user">Created by </label>
+       <input type="text" name="user" class="input_value"> 
+       
+       <input type="submit" class="submitButton button">
+    </form>
+</div>
